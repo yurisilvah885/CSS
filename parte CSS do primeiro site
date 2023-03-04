@@ -1,0 +1,47 @@
+h1{
+    border:5px solid white;
+    text-align: center;
+    color: white;
+  text-shadow: 6px 6px 5px blueviolet;
+}
+h2{
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px 5px blue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+ margin-right: 20px;
+    color:white;
+    text-align: center;
+}
+.mouse{
+    
+    padding : 30px;
+    border-radius: 16px;
+    background: #0CD909;
+    color:white;
+    text-decoration: none;
+}
+.mouse:hover{
+    padding : 30px;
+    border:solid 2px #0CD909;
+    background: white;
+    color:#0CD909;
+    text-decoration: none;
+
+}
+body{
+    background-image: linear-gradient(blue,red);
+    overflow: auto;
+    margin-bottom: 40px;
+    
+}
+.paragrafo{
+    
+    box-shadow: 5px 5px 15px black
+}
+img{
+    box-shadow: 5px 5px black;
+ 
+}
