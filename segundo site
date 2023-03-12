@@ -1,0 +1,145 @@
+body{
+    background:white;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-flow:wrap row;
+    height: 100px;
+    
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex:20%;
+    margin-left: 10%;
+   
+    text-align: center;
+    
+}
+
+.logo h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: #FF2978 5px 5px 15px;
+    color:#180F4A ;
+
+}
+.menu{
+    flex:70%;
+   
+    text-align: right;
+    padding: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    color:#180F4A;
+    margin-right: 50px;
+
+}
+
+.menu a:hover{
+    border-top: 5px solid  #180F4A;
+    color: #FF2978;
+}
+
+#botao{
+padding :10px 25px;
+background: #180F4A;
+color:white;
+border-radius: 5px;
+}
+#botao:hover{
+    background:#FF2978;
+    border:none;
+}
+.header{
+
+justify-content: center;
+align-items: center;
+display:flex;
+flex-flow: row wrap;
+}
+.headline{
+    flex:40%;
+    margin-left:10%;
+    
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    
+    text-align: center;
+    
+}
+section{
+    margin-top:80px;
+   
+    margin-left: 5%;
+    margin-right:5%;
+    
+    display: inline-block;
+    text-align: center;
+    padding:5%;
+    width: 90%;
+}
+section h2{
+    width: 100%;
+    font-size:50px;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#180F4A;
+    font-weight: bold;
+
+}
+.serviços{
+    display:inline-block;
+    margin-top: 5%;
+}
+.cards{
+    display:inline-block;
+    width: 30%;
+    margin:1%;
+    padding: 20px;
+    border:1px solid #FF2978;
+    border-radius:10px;
+    cursor: pointer;
+}
+.cards:hover{
+    background:#FF2978;
+    color:white;
+    padding-top:40px;
+}
+footer{
+    margin-top:100px;
+    height:400px;
+    background-image: linear-gradient(180deg,#180F4A, #090422, black);
+    text-align: center;
+    border-top:5px solid #FF2978;
+
+}
+.logo-rodape{
+    padding:100px;
+}
+.agencia{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: #FF2978 5px 5px 15px;
+    color:white ;
+}
