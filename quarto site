@@ -1,0 +1,55 @@
+.container{
+    height: 100px;
+
+    display:flex;
+   
+    flex-flow: row wrap;
+
+justify-content: center;
+align-items: center;
+}
+h1{
+    font-size: 40px;
+    color:white
+}
+.logo{
+    flex:30%;
+    margin-left: 10%;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    background: white;
+    border-radius: 10px ;
+
+}
+.menu{
+        flex:50%;
+        text-align: right;
+        padding: 20px;
+}
+.menu a:hover{
+background: blue;
+padding: 25px;
+color:white
+}
+header{
+    height:450px;
+    
+   margin-left: 380px;
+   margin-right: 380px;
+}
+.login{
+text-align: center;
+    color:white;
+    padding:30px;
+   margin: 100px;
+    background-color: white;
+    color:blue;
+    border-radius: 15px;
+
+   
+    
+}
+
