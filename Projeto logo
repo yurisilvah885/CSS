@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-image: radial-gradient(circle at 50% 43%, #011027, #000110 70%);
+
+}
+ul{
+    display:flex;
+    font-family: "Chivo Manto";
+    gap:72px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+font-size: 26px;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+color:white;
+padding:10px;
+transition: 0.5s ease;
+}
+ul:hover li a{
+    color:#30edf4;
+}
+ul:hover li a:not(:hover){
+    color:white;
+    opacity:0.3;
+    filter: blur(1px);
+}
